@@ -142,18 +142,22 @@ Size of cache line:
 
 - Ως μέγιστη απόδοση θεωρούμε το μικρότερο CPI
 
- spec_bzip
+<h4> spec_bzip </h4>
+
 ![img](img/bzip.png)
 
 
-spec_mcf
+<h4> spec_mcf </h4>
+
 ![img](img/mcf.png)
 
 
-spec_jeng
+<h4> spec_jseng </h4>
+
 ![img](img/jeng.png)
 
-spec_hmmer
+<h4> spec_hmmer </h4>
+
 ![img](img/hmmer.png)
 <br><br>
 
