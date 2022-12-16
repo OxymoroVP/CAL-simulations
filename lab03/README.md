@@ -1,6 +1,4 @@
-
-#### lab03
-
+# LAB_02 REPORT - Energy-Delay-Area Product Optimization (gem5 + McPAT)
 
 
 
