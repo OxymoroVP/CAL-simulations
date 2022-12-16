@@ -75,31 +75,31 @@ TotalPower = RuntimeDynamic + SubthresholdLeakage + GateLeakage
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/DCA.jpg)
+![img](Plots/peak_power/ICS.jpg) |  ![img](Plots/total_power/ICS.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/DCS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![img](Plots/peak_power/ICA.jpg) |  ![img](Plots/total_power/ICA.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-!![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+!![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/total_power/CLS.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![img](Plots/peak_power/DCA.jpg) |  ![img](Plots/total_power/DCA.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![img](Plots/peak_power/DCS.jpg) |  ![img](Plots/total_power/DCS.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![img](Plots/peak_power/L2CA.jpg) |  ![img](Plots/total_power/L2CA.jpg)
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![img](Plots/peak_power/L2CS.jpg) |  ![img](Plots/total_power/L2CS.jpg)
 
 
 ### Energy-Delay Product
