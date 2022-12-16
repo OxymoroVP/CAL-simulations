@@ -1,4 +1,4 @@
-# LAB_02 REPORT - Energy-Delay-Area Product Optimization (gem5 + McPAT)
+# LAB_03 REPORT - Energy-Delay-Area Product Optimization (gem5 + McPAT)
 
 
 
@@ -107,15 +107,6 @@ Peak Power             |  Total Power
 
 ![img](Plots/Sjeng_CPI.jpg)
 
-
-
-
-
-
-
-
-![](https://github.com/voulgarakisromanos/ComputerArchitecture3/blob/main/Plots/Sjeng_CPI.jpg)
-
 Παραθέτουμε για σύγκριση και την μεταβολή του CPI για το sjeng, καθώς υπάρχει αναλογική σχέση ανάμεσα σε αυτό και τον χρόνο εκτέλεσης.
 
 *CPU<sub>time</sub> = InstructionsNumber&#8901;CPI&#8901;ClockCycleTime*
@@ -142,4 +133,9 @@ Peak Power             |  Total Power
 
 Η χρήση δύο προγραμμάτων για την προσομοίωση διαφορετικών πτυχών της ίδιας CPU μπορεί να αποτελέσει πηγή σφάλματος, καθώς τα προγράμματα μπορεί να κάνουν αντικρουόμενες υποθέσεις. Ταυτόχρονα υπερδιπλασιάζεται και η πιθανότητα να επηρεάσει την προσομοίωση κάποιο bug.
 
+
+<h2> Κριτική εργασίας </h2>
+
+Χρονοβόρα εργασία, χρειάστηκε να ψαξουμε τη βιβλιογραφία για τα ερωτήματα.  
+Στη συγκεκριμενη εργασια αποφασισουμε να υλοποιησουμε ενα bash-script ετσι ωστε να παρουμε τα αποτελέσματα ευκολα. Η διαδικασία μας εξοικείωσε περαιτερω με τις εντολες στο terminal (😛). 
 
