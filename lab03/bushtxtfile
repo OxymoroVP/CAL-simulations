@@ -1,0 +1,465 @@
+bzip..............
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipICS1.xml > warnings.txt
+./mcpat -infile xml_files/BzipICS1.xml -print_level 1 > results/BzipICS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICS2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipICS2.xml > warnings.txt
+./mcpat -infile xml_files/BzipICS2.xml -print_level 1 > results/BzipICS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICS3/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipICS3.xml > warnings.txt
+./mcpat -infile xml_files/BzipICS3.xml -print_level 1 > results/BzipICS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICS4/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipICS4.xml > warnings.txt
+./mcpat -infile xml_files/BzipICS4.xml -print_level 1 > results/BzipICS4.txt 
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipDCS1.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCS1.xml -print_level 1 > results/BzipDCS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipDCS2.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCS2.xml -print_level 1 > results/BzipDCS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS3/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipDCS3.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCS3.xml -print_level 1 > results/BzipDCS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCS4/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipDCS4.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCS4.xml -print_level 1 > results/BzipDCS4.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipICA1.xml > warnings.txt
+./mcpat -infile xml_files/BzipICA1.xml -print_level 1 > results/BzipICA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipICA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipICA2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipICA2.xml > warnings.txt
+./mcpat -infile xml_files/BzipICA2.xml -print_level 1 > results/BzipICA2.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipDCA1.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCA1.xml -print_level 1 > results/BzipDCA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipDCA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipDCA2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipDCA2.xml > warnings.txt
+./mcpat -infile xml_files/BzipDCA2.xml -print_level 1 > results/BzipDCA2.txt
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipL2DS1.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2DS1.xml -print_level 1 > results/BzipL2DS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipL2DS2.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2DS2.xml -print_level 1 > results/BzipL2DS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS3/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipL2DS3.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2DS3.xml -print_level 1 > results/BzipL2DS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS4/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipL2DS4.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2DS4.xml -print_level 1 > results/BzipL2DS4.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS5/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2DS5/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipL2DS5.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2DS5.xml -print_level 1 > results/BzipL2DS5.txt
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2CA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2CA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipL2CA1.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2CA1.xml -print_level 1 > results/BzipL2CA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipL2CA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipL2CA2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipL2CA2.xml > warnings.txt
+./mcpat -infile xml_files/BzipL2CA2.xml -print_level 1 > results/BzipL2CA2.txt
+
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\BzipCLS1.xml > warnings.txt
+./mcpat -infile xml_files/BzipCLS1.xml -print_level 1 > results/BzipCLS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS2/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipCLS2.xml > warnings.txt
+./mcpat -infile xml_files/BzipCLS2.xml -print_level 1 > results/BzipCLS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS3/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipCLS3.xml > warnings.txt
+./mcpat -infile xml_files/BzipCLS3.xml -print_level 1 > results/BzipCLS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specBzipCLS4/config.json ../Scripts/inorder_arm.xml -o xml_files/BzipCLS4.xml > warnings.txt
+./mcpat -infile xml_files/BzipCLS4.xml -print_level 1 > results/BzipCLS4.txt
+
+
+libm................
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmICS1.xml > warnings.txt
+./mcpat -infile xml_files/libmICS1.xml -print_level 1 > results/libmICS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICS2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmICS2.xml > warnings.txt
+./mcpat -infile xml_files/libmICS2.xml -print_level 1 > results/libmICS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICS3/config.json ../Scripts/inorder_arm.xml -o xml_files/libmICS3.xml > warnings.txt
+./mcpat -infile xml_files/libmICS3.xml -print_level 1 > results/libmICS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICS4/config.json ../Scripts/inorder_arm.xml -o xml_files/libmICS4.xml > warnings.txt
+./mcpat -infile xml_files/libmICS4.xml -print_level 1 > results/libmICS4.txt 
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmDCS1.xml > warnings.txt
+./mcpat -infile xml_files/libmDCS1.xml -print_level 1 > results/libmDCS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmDCS2.xml > warnings.txt
+./mcpat -infile xml_files/libmDCS2.xml -print_level 1 > results/libmDCS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS3/config.json ../Scripts/inorder_arm.xml -o xml_files/libmDCS3.xml > warnings.txt
+./mcpat -infile xml_files/libmDCS3.xml -print_level 1 > results/libmDCS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCS4/config.json ../Scripts/inorder_arm.xml -o xml_files/libmDCS4.xml > warnings.txt
+./mcpat -infile xml_files/libmDCS4.xml -print_level 1 > results/libmDCS4.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmICA1.xml > warnings.txt
+./mcpat -infile xml_files/libmICA1.xml -print_level 1 > results/libmICA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmICA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmICA2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmICA2.xml > warnings.txt
+./mcpat -infile xml_files/libmICA2.xml -print_level 1 > results/libmICA2.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmDCA1.xml > warnings.txt
+./mcpat -infile xml_files/libmDCA1.xml -print_level 1 > results/libmDCA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmDCA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmDCA2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmDCA2.xml > warnings.txt
+./mcpat -infile xml_files/libmDCA2.xml -print_level 1 > results/libmDCA2.txt
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmL2DS1.xml > warnings.txt
+./mcpat -infile xml_files/libmL2DS1.xml -print_level 1 > results/libmL2DS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmL2DS2.xml > warnings.txt
+./mcpat -infile xml_files/libmL2DS2.xml -print_level 1 > results/libmL2DS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS3/config.json ../Scripts/inorder_arm.xml -o xml_files/libmL2DS3.xml > warnings.txt
+./mcpat -infile xml_files/libmL2DS3.xml -print_level 1 > results/libmL2DS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS4/config.json ../Scripts/inorder_arm.xml -o xml_files/libmL2DS4.xml > warnings.txt
+./mcpat -infile xml_files/libmL2DS4.xml -print_level 1 > results/libmL2DS4.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS5/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2DS5/config.json ../Scripts/inorder_arm.xml -o xml_files/libmL2DS5.xml > warnings.txt
+./mcpat -infile xml_files/libmL2DS5.xml -print_level 1 > results/libmL2DS5.txt
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2CA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2CA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmL2CA1.xml > warnings.txt
+./mcpat -infile xml_files/libmL2CA1.xml -print_level 1 > results/libmL2CA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmL2CA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmL2CA2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmL2CA2.xml > warnings.txt
+./mcpat -infile xml_files/libmL2CA2.xml -print_level 1 > results/libmL2CA2.txt
+
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\libmCLS1.xml > warnings.txt
+./mcpat -infile xml_files/libmCLS1.xml -print_level 1 > results/libmCLS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS2/config.json ../Scripts/inorder_arm.xml -o xml_files/libmCLS2.xml > warnings.txt
+./mcpat -infile xml_files/libmCLS2.xml -print_level 1 > results/libmCLS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS3/config.json ../Scripts/inorder_arm.xml -o xml_files/libmCLS3.xml > warnings.txt
+./mcpat -infile xml_files/libmCLS3.xml -print_level 1 > results/libmCLS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/speclibmCLS4/config.json ../Scripts/inorder_arm.xml -o xml_files/libmCLS4.xml > warnings.txt
+./mcpat -infile xml_files/libmCLS4.xml -print_level 1 > results/libmCLS4.txt
+
+
+
+mcf...........
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfICS1.xml > warnings.txt
+./mcpat -infile xml_files/mcfICS1.xml -print_level 1 > results/mcfICS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICS2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfICS2.xml > warnings.txt
+./mcpat -infile xml_files/mcfICS2.xml -print_level 1 > results/mcfICS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICS3/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfICS3.xml > warnings.txt
+./mcpat -infile xml_files/mcfICS3.xml -print_level 1 > results/mcfICS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICS4/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfICS4.xml > warnings.txt
+./mcpat -infile xml_files/mcfICS4.xml -print_level 1 > results/mcfICS4.txt 
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfDCS1.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCS1.xml -print_level 1 > results/mcfDCS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfDCS2.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCS2.xml -print_level 1 > results/mcfDCS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS3/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfDCS3.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCS3.xml -print_level 1 > results/mcfDCS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCS4/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfDCS4.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCS4.xml -print_level 1 > results/mcfDCS4.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfICA1.xml > warnings.txt
+./mcpat -infile xml_files/mcfICA1.xml -print_level 1 > results/mcfICA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfICA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfICA2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfICA2.xml > warnings.txt
+./mcpat -infile xml_files/mcfICA2.xml -print_level 1 > results/mcfICA2.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfDCA1.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCA1.xml -print_level 1 > results/mcfDCA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfDCA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfDCA2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfDCA2.xml > warnings.txt
+./mcpat -infile xml_files/mcfDCA2.xml -print_level 1 > results/mcfDCA2.txt
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfL2DS1.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2DS1.xml -print_level 1 > results/mcfL2DS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfL2DS2.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2DS2.xml -print_level 1 > results/mcfL2DS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS3/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfL2DS3.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2DS3.xml -print_level 1 > results/mcfL2DS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS4/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfL2DS4.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2DS4.xml -print_level 1 > results/mcfL2DS4.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS5/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2DS5/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfL2DS5.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2DS5.xml -print_level 1 > results/mcfL2DS5.txt
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2CA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2CA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfL2CA1.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2CA1.xml -print_level 1 > results/mcfL2CA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfL2CA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfL2CA2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfL2CA2.xml > warnings.txt
+./mcpat -infile xml_files/mcfL2CA2.xml -print_level 1 > results/mcfL2CA2.txt
+
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\mcfCLS1.xml > warnings.txt
+./mcpat -infile xml_files/mcfCLS1.xml -print_level 1 > results/mcfCLS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS2/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfCLS2.xml > warnings.txt
+./mcpat -infile xml_files/mcfCLS2.xml -print_level 1 > results/mcfCLS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS3/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfCLS3.xml > warnings.txt
+./mcpat -infile xml_files/mcfCLS3.xml -print_level 1 > results/mcfCLS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specmcfCLS4/config.json ../Scripts/inorder_arm.xml -o xml_files/mcfCLS4.xml > warnings.txt
+./mcpat -infile xml_files/mcfCLS4.xml -print_level 1 > results/mcfCLS4.txt
+
+
+sjeng...........
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengICS1.xml > warnings.txt
+./mcpat -infile xml_files/sjengICS1.xml -print_level 1 > results/sjengICS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICS2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengICS2.xml > warnings.txt
+./mcpat -infile xml_files/sjengICS2.xml -print_level 1 > results/sjengICS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICS3/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengICS3.xml > warnings.txt
+./mcpat -infile xml_files/sjengICS3.xml -print_level 1 > results/sjengICS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICS4/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengICS4.xml > warnings.txt
+./mcpat -infile xml_files/sjengICS4.xml -print_level 1 > results/sjengICS4.txt 
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengDCS1.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCS1.xml -print_level 1 > results/sjengDCS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengDCS2.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCS2.xml -print_level 1 > results/sjengDCS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS3/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengDCS3.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCS3.xml -print_level 1 > results/sjengDCS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCS4/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengDCS4.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCS4.xml -print_level 1 > results/sjengDCS4.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengICA1.xml > warnings.txt
+./mcpat -infile xml_files/sjengICA1.xml -print_level 1 > results/sjengICA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengICA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengICA2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengICA2.xml > warnings.txt
+./mcpat -infile xml_files/sjengICA2.xml -print_level 1 > results/sjengICA2.txt 
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengDCA1.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCA1.xml -print_level 1 > results/sjengDCA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengDCA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengDCA2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengDCA2.xml > warnings.txt
+./mcpat -infile xml_files/sjengDCA2.xml -print_level 1 > results/sjengDCA2.txt
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengL2DS1.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2DS1.xml -print_level 1 > results/sjengL2DS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengL2DS2.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2DS2.xml -print_level 1 > results/sjengL2DS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS3/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengL2DS3.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2DS3.xml -print_level 1 > results/sjengL2DS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS4/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengL2DS4.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2DS4.xml -print_level 1 > results/sjengL2DS4.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS5/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2DS5/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengL2DS5.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2DS5.xml -print_level 1 > results/sjengL2DS5.txt
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2CA1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2CA1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengL2CA1.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2CA1.xml -print_level 1 > results/sjengL2CA1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengL2CA2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengL2CA2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengL2CA2.xml > warnings.txt
+./mcpat -infile xml_files/sjengL2CA2.xml -print_level 1 > results/sjengL2CA2.txt
+
+
+
+
+
+
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS1/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS1/config.json ../Scripts/inorder_arm.xml -o xml_files/\sjengCLS1.xml > warnings.txt
+./mcpat -infile xml_files/sjengCLS1.xml -print_level 1 > results/sjengCLS1.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS2/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS2/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengCLS2.xml > warnings.txt
+./mcpat -infile xml_files/sjengCLS2.xml -print_level 1 > results/sjengCLS2.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS3/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS3/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengCLS3.xml > warnings.txt
+./mcpat -infile xml_files/sjengCLS3.xml -print_level 1 > results/sjengCLS3.txt 
+
+
+../Scripts/GEM5ToMcPAT.py ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS4/stats.txt ../Scripts/ComputerArchitectureBenchmarks/specsjengCLS4/config.json ../Scripts/inorder_arm.xml -o xml_files/sjengCLS4.xml > warnings.txt
+./mcpat -infile xml_files/sjengCLS4.xml -print_level 1 > results/sjengCLS4.txt
