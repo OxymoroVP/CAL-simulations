@@ -75,47 +75,36 @@ TotalPower = RuntimeDynamic + SubthresholdLeakage + GateLeakage
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/DCA.jpg)
+![][ICS_PP] |  ![][ICS_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/DCS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][DCS_PP] |  ![][DCS_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-!![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][CLS_PP] |  ![][CLS_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][L2S_PP] |  ![][L2S_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][ICA_PP] |  ![][ICA_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][DCA_PP] |  ![][DCA_TP]
 
 Peak Power             |  Total Power
 :-------------------------:|:-------------------------:
-![img](Plots/peak_power/CLS.jpg) |  ![img](Plots/peak_power/CLS.jpg)
+![][L2A_PP] |  ![][L2A_TP]
 
 
 ### Energy-Delay Product
 Στο παρακάτω διάγραμμα παρατηρούμαι την μεταβολή του EDP σε σχέση με κάθε χαρακτηριστικό του υποσυστήματος μνήμης για το bechmark sjeng.
-
-![img](Plots/EDP.jpg)
-
-![img](Plots/Sjeng_CPI.jpg)
-
-
-
-
-
-
-
-
+![](https://github.com/voulgarakisromanos/ComputerArchitecture3/blob/main/Plots/EDP.jpg)
 ![](https://github.com/voulgarakisromanos/ComputerArchitecture3/blob/main/Plots/Sjeng_CPI.jpg)
 
 Παραθέτουμε για σύγκριση και την μεταβολή του CPI για το sjeng, καθώς υπάρχει αναλογική σχέση ανάμεσα σε αυτό και τον χρόνο εκτέλεσης.
@@ -145,3 +134,17 @@ Peak Power             |  Total Power
 Η χρήση δύο προγραμμάτων για την προσομοίωση διαφορετικών πτυχών της ίδιας CPU μπορεί να αποτελέσει πηγή σφάλματος, καθώς τα προγράμματα μπορεί να κάνουν αντικρουόμενες υποθέσεις. Ταυτόχρονα υπερδιπλασιάζεται και η πιθανότητα να επηρεάσει την προσομοίωση κάποιο bug.
 
 
+[ICS_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/peak_power/ICS.jpg
+[DCS_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/peak_power/DCS.jpg
+[CLS_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/peak_power/CLS.jpg
+[L2S_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/Plots/peak_power/L2CS.jpg
+[DCA_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/Plots/peak_power/DCA.jpg
+[ICA_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/Plots/peak_power/ICA.jpg
+[L2A_PP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/peak_power/L2CA.jpg
+[ICS_TP]:https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/ICS.jpg
+[DCS_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/DCS.jpg
+[CLS_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/CLS.jpg
+[L2S_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/L2CS.jpg
+[DCA_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/DCA.jpg
+[ICA_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/ICA.jpg
+[L2A_TP]: https://github.com/OxymoroVP/CAL-simulations/tree/master/lab03/Plots/total_power/L2CA.jpg
