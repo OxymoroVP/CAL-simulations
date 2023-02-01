@@ -1,7 +1,5 @@
 # LAB_03 REPORT - Energy-Delay-Area Product Optimization (gem5 + McPAT)
 
-
-
 # Ερώτημα 1
 ## 1.1 
 
@@ -55,7 +53,7 @@ Leakage: η κατανάλωση ενέργειας που οφείλεται σ
 # Ερώτημα 2
 
 
-Πληροφορίες για το delay - energy
+<!-- Πληροφορίες για το delay - energy
 
 Το delay είναι ο χρόνος εκτέλεσης του προγράμματος και θα το βρούμε από τα στατιστικά του gem5: στο αρχείο stats.txt το sim_seconds.
 Το energy υπολογίζεται ως εξής : energy = (leakage + Runtime dynamic) * time
@@ -68,7 +66,7 @@ Leakage: η κατανάλωση ενέργειας που οφείλεται σ
 
 Στα ακόλουθα γραφήματα παρουσιάζεται η μεταβολή της συνολικής ενέργειας, καθώς και της μέγιστης ισχύς, σε σχέση με κάθε παράμετρο του υποσυστήματος μνήμης. Η συνολική ενέργεια υπολογίζεται ως:
 
-TotalPower = RuntimeDynamic + SubthresholdLeakage + GateLeakage
+TotalPower = RuntimeDynamic + SubthresholdLeakage + GateLeakage -->
 
 
 Peak Power             |  Total Power

@@ -1,9 +1,5 @@
-# BLAH BLAH 
-//todo: update README.md
-
-
-
-
+# Computer Architecture Laboratory
+Enter sub-directories of the repo correspondingly, to find lab reports .
 
 ## Contact
 
